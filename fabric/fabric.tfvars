@@ -6,7 +6,7 @@ aws = {
 
 ### add additional tags whenever needed
 common_tags = {
-    Author       = "Deepak"
+    Author       = "Deep-tech"
     project-code = "Tech-challenge"
     environment  = "Test"
     creation     = "Terraform"
@@ -60,7 +60,7 @@ route_tables = [
 routes = [   
 
     ##internet gateway route from public subnet
-    {name="rt-ac-pub", destination_cidr_block="0.0.0.0/0", gateway_id="igw-0e1f01e71bbffce10"} ##update your own igw id
+    {name="rt-ac-pub", destination_cidr_block="0.0.0.0/0", gateway_id="igw-1234567dgretwet"} ##update your own igw id
    
     #{name="rt-ac-app", destination_cidr_block="172.16.0.0/28",vpc_peering_connection_id="pcx-027a6ded422e9a2c1"},
 ]

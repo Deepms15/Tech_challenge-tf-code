@@ -13,7 +13,7 @@ terraform {
 data "terraform_remote_state" "fabric" {
   backend = "s3"
   config = {
-    bucket="terraform-backend-s3-tech"
+    bucket="terraform-backend-s3bucket-name-newly-created-for-statefiles"
     key="fabric/terraform.tfstate"
     region   = "ap-southeast-1"
     profile  = var.aws["profile"]    

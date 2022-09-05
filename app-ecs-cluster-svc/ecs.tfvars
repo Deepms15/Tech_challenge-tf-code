@@ -9,7 +9,7 @@ aws = {
 
 ### add additional tags whenever needed
 common_tags = {
-    Author       = "Deepak"
+    Author       = "Deep-tech"
     project-code = "Tech-challenge"
     environment  = "Test"
     creation     = "Terraform"

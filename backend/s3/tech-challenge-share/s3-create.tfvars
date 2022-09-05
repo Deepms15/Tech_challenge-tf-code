@@ -7,7 +7,7 @@ aws = {
 
 
 common_tags = {
-    Author       = "Deepak"
+    Author       = "Deep-tech"
     project-code = "Tech-challenge"
     environment  = "Test"
     creation     = "Terraform"
@@ -17,4 +17,4 @@ common_tags = {
 #====================================================
 s3-bucket = "tech-challenge-s3-buckets"
 #s3-log-folder = "challenge-share/"   #create the log folder based on the usage
-#s3-log-bucket = "terraform-backend-s3-tech" #update logging folder base on the compartment
+#s3-log-bucket = "terraform-backend-s3-share" #update logging folder base on the compartment
