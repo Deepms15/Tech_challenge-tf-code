@@ -1,4 +1,4 @@
-bucket="terraform-backend-s3-tech"
+bucket="terraform-backend-s3bucket-name-newly-created-for-statefiles"
 key="vpc/terraform.tfstate"
 region="ap-southeast-1"
 profile_name='Tech-challenge'

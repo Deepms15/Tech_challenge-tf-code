@@ -1,5 +1,5 @@
 #Init terraform------------------------------
-bucket="terraform-backend-s3-tech"
+bucket="s3bucket-name-newly-created-for-statefiles"
 key="security/terraform.tfstate"
 region="ap-southeast-1"
 profile_name='Tech-challenge'

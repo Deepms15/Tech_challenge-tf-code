@@ -43,7 +43,7 @@ usr_ecs_cluster = [
             #Port exposed by the docker image to redirect traffic to
             port             = 3000
             #Docker image to run in the ECS cluster
-            image            = "812359636822.dkr.ecr.ap-southeast-1.amazonaws.com/deep:latest"
+            image            = "123456789.dkr.ecr.ap-southeast-1.amazonaws.com/tech:latest"
             log_group        = "/ecs/ecs-tech-challenge-lg"
             logs_stream_pfx  = "ecs"
             log_retention    = 7

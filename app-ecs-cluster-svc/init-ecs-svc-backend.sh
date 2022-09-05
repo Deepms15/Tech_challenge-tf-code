@@ -1,5 +1,5 @@
 #Init terraform------------------------------
-bucket="terraform-backend-s3-tech"
+bucket="terraform-backend-s3bucket-name-newly-created-for-statefiles"
 key="ecs-cluster-svc/terraform.tfstate" ## change the key fabric folder based on the resources
 region="ap-southeast-1"
 profile_name='Tech-challenge'

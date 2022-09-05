@@ -28,7 +28,7 @@
 			},
       {
         "name": "VTT_DBHOST",
-				"value": "tech-challenge.cfnorvtz5goi.ap-southeast-1.rds.amazonaws.com"
+				"value": "rds-endpoints"
       }
 		]
   }

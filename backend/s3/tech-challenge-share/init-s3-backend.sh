@@ -1,5 +1,5 @@
-bucket="terraform-backend-s3-tech"
-key="tech-challenge-share/terraform.tfstate"
+bucket="terraform-backend-s3bucket-name-newly-created-for-statefiles"
+key="tech-challenge-share-s3/terraform.tfstate"
 region="ap-southeast-1"
 profile_name='Tech-challenge'
 
