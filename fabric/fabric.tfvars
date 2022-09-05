@@ -91,6 +91,7 @@ s3endpoint_access_list = [
 ###   - egress
 
 network_acl_rules = [
+    ##Based on the requirement hardend the ingress and egress ports and ips
     {name="nacl-ac-pub", rule_number="10000", rule_action="allow", cidr_block="0.0.0.0/0", type="ingress", protocol="-1", from_port="-1", to_port="-1"},
     {name="nacl-ac-pub", rule_number="10000", rule_action="allow", cidr_block="0.0.0.0/0", type="egress", protocol="-1", from_port="-1", to_port="-1"},
     
