@@ -37,13 +37,13 @@ security_groups = [
 
 security_group_rules = [
    
-    ##Allow the ports based on the requirements
+    ##Allow the ports and ips based on the hardening requirements
     {name="sgrp-pub-lb", cidr_block="172.18.0.0/24", type="ingress", from_port="80",to_port="80",	protocol="tcp", description="alb sg"},
     {name="sgrp-ecs-app", cidr_block="172.18.0.0/24", type="ingress", from_port="80",to_port="80",	protocol="tcp", description="from alb"}, 
     {name="sgrp-ecs-app", cidr_block="172.18.0.0/24", type="ingress", from_port="3000",to_port="3000",	protocol="tcp", description="from alb"},       
     {name="sgrp-rds-db", cidr_block="172.18.0.0/24", type="ingress", from_port="5432",to_port="5432",	protocol="tcp", description="From app"},
     {name="sgrp-enpnt", cidr_block="172.18.0.0/24", type="ingress", from_port="0",	to_port="65535",	protocol="tcp", description="from vpc"},
-    {name="sgrp-pub-lb", cidr_block="42.60.108.7/32", type="ingress", from_port="0",to_port="65535",	protocol="tcp", description="alb sg"},
+    {name="sgrp-pub-lb", cidr_block="1.2.3.4/32", type="ingress", from_port="0",to_port="65535",	protocol="tcp", description="alb sg"},
     {name="sgrp-pub-lb", cidr_block="0.0.0.0/0", type="ingress", from_port="80",to_port="80",	protocol="tcp", description="alb sg"},
 ]
 
